@@ -1,0 +1,61 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card :global(.p-card-body) {
+  padding: 18px;
+}
+
+.card :global(.p-card-content) {
+  padding: 0;
+}
+
+.cardTitle {
+  margin-bottom: 14px !important;
+}
+
+.reachList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reachItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reachIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.socialRow {
+  display: flex;
+  gap: 8px;
+}
+
+.socialBtn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 0.5px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  transition: background 0.15s, color 0.15s;
+}
+
+.socialBtn:hover {
+  background: var(--surface-2);
+  color: var(--primary);
+}

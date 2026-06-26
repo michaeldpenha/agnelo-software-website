@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "services": "Services",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact us"
+  },
+  "hero": {
+    "badge": "Software development",
+    "title": "We build software that solves real problems",
+    "subtitle": "Custom web apps, mobile solutions, and scalable systems — designed for businesses that need technology that actually works.",
+    "cta": "See our work",
+    "quote": "Get a free quote",
+    "stats": {
+      "projects": "+50",
+      "projectsLabel": "Projects delivered",
+      "satisfaction": "98%",
+      "satisfactionLabel": "Client satisfaction",
+      "years": "5+",
+      "yearsLabel": "Years of experience"
+    },
+    "services": {
+      "webTitle": "Web development",
+      "webStack": "React, Node.js, Next.js",
+      "webBadge": "Popular",
+      "mobileTitle": "Mobile apps",
+      "mobileStack": "React Native, Flutter",
+      "apiTitle": "APIs and integrations",
+      "apiStack": "REST, GraphQL, microservices",
+      "cloudTitle": "Cloud and DevOps",
+      "cloudStack": "AWS, Docker, CI/CD"
+    }
+  },
+  "services": {
+    "badge": "What we do",
+    "title": "Services built around your needs",
+    "subtitle": "From idea to production — we cover every stage of software development with a focus on quality and delivery.",
+    "web": {
+      "title": "Web development",
+      "desc": "Custom web apps built with modern frameworks — fast, scalable, and easy to maintain."
+    },
+    "mobile": {
+      "title": "Mobile apps",
+      "desc": "iOS and Android apps with a single codebase — smooth performance, native feel."
+    },
+    "api": {
+      "title": "APIs and integrations",
+      "desc": "Connect your systems and third-party services with robust, well-documented APIs."
+    },
+    "cloud": {
+      "title": "Cloud and DevOps",
+      "desc": "Deploy with confidence — automated pipelines, container orchestration, and cloud infrastructure."
+    },
+    "database": {
+      "title": "Database design",
+      "desc": "Relational and NoSQL databases designed for performance, security, and growth."
+    },
+    "consulting": {
+      "title": "Tech consulting",
+      "desc": "Architecture reviews, tech stack decisions, and ongoing support for your development team."
+    }
+  },
+  "products": {
+    "badge": "Our products",
+    "title": "Built by us, used every day",
+    "subtitle": "Beyond client work, we build our own products to solve real-world problems.",
+    "timepow": {
+      "name": "A Tiempo",
+      "status": "Live",
+      "desc": "A smart appointment platform with WhatsApp at its core — book, confirm, and reschedule without leaving the chat.",
+      "features": {
+        "appointments": {
+          "title": "Appointment booking",
+          "desc": "Clients book available slots in seconds, no back-and-forth needed."
+        },
+        "reminders": {
+          "title": "WhatsApp reminders",
+          "desc": "Automatic reminders sent directly via WhatsApp before each appointment."
+        },
+        "rescheduling": {
+          "title": "Easy rescheduling",
+          "desc": "Clients can reschedule on their own through a simple WhatsApp flow."
+        },
+        "booking": {
+          "title": "Book via WhatsApp",
+          "desc": "The entire booking experience happens inside WhatsApp — no app to download."
+        }
+      }
+    }
+  },
+  "about": {
+    "badge": "About us",
+    "title": "People behind the code",
+    "subtitle": "We're a team of developers, designers, and problem-solvers passionate about building software that makes a difference.",
+    "storyTitle": "Our story",
+    "storyP1": "Agnelo Software was founded with a clear mission: to deliver high-quality software without the overhead of large agencies. We work closely with our clients — from early-stage startups to growing businesses — to turn ideas into reliable digital products.",
+    "storyP2": "Every project we take on is treated as a long-term partnership, not just a contract.",
+    "stats": {
+      "founded": "2026",
+      "foundedLabel": "Year founded",
+      "remote": "100%",
+      "remoteLabel": "Remote-first team",
+      "products": "1",
+      "productsLabel": "Our products"
+    },
+    "valuesTitle": "Our values",
+    "values": {
+      "delivery": { "title": "Delivery", "desc": "On time, every time" },
+      "quality":  { "title": "Quality",  "desc": "Clean, tested code" },
+      "transparency": { "title": "Transparency", "desc": "Clear communication" },
+      "partnership":  { "title": "Partnership",  "desc": "Long-term relationships" }
+    }
+  },
+  "contact": {
+    "badge": "Get in touch",
+    "title": "Let's build something together",
+    "subtitle": "Tell us about your project and we'll get back to you within 24 hours.",
+    "form": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "company": "Company (optional)",
+      "service": "Service",
+      "servicePlaceholder": "Select a service...",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent! We'll get back to you soon.",
+      "error": "Something went wrong. Please try again."
+    },
+    "services": ["Web development", "Mobile app", "APIs & Integrations", "Cloud & DevOps", "Database design", "Tech consulting", "Other"],
+    "reachTitle": "Other ways to reach us",
+    "emailLabel": "Email",
+    "emailValue": "hello@agnelosoftware.com",
+    "responseLabel": "Response time",
+    "responseValue": "Within 24 hours"
+  },
+  "footer": {
+    "tagline": "Innovation · Code · Solutions",
+    "copyright": "© {{year}} Agnelo Software. All rights reserved.",
+    "nav": {
+      "services": "Services",
+      "products": "Products",
+      "about": "About",
+      "contact": "Contact"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.card :global(.p-card-body) {
+  padding: 20px;
+}
+
+.card :global(.p-card-content) {
+  padding: 0;
+}
+
+.title {
+  margin-bottom: 14px !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.iconWrap {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}

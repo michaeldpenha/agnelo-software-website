@@ -1,0 +1,16 @@
+.story {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.badge {
+  align-self: flex-start;
+  font-size: 11px !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.storyTitle {
+  margin-top: 8px;
+}

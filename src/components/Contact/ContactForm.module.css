@@ -1,0 +1,67 @@
+.card :global(.p-card-body) {
+  padding: 28px;
+}
+
+.card :global(.p-card-content) {
+  padding: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.success {
+  color: #065F46 !important;
+  background: #ECFDF5;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+}
+
+.error {
+  color: #991B1B !important;
+  background: #FEF2F2;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+}
+
+.form :global(.p-inputtext),
+.form :global(.p-dropdown) {
+  padding: 10px 12px !important;
+}
+
+.form :global(.p-inputtextarea) {
+  padding: 10px 12px !important;
+}
+
+.submit {
+  align-self: flex-start;
+  padding: 10px 24px !important;
+}
+
+.submit :global(.p-button-label) {
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .row { grid-template-columns: 1fr; }
+}

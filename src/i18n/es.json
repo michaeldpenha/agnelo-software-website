@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "products": "Productos",
+    "about": "Nosotros",
+    "contact": "Contáctanos"
+  },
+  "hero": {
+    "badge": "Desarrollo de software",
+    "title": "Construimos software que resuelve problemas reales",
+    "subtitle": "Aplicaciones web, soluciones móviles y sistemas escalables — diseñados para negocios que necesitan tecnología que realmente funciona.",
+    "cta": "Ver nuestro trabajo",
+    "quote": "Obtener cotización",
+    "stats": {
+      "projects": "+50",
+      "projectsLabel": "Proyectos entregados",
+      "satisfaction": "98%",
+      "satisfactionLabel": "Satisfacción del cliente",
+      "years": "5+",
+      "yearsLabel": "Años de experiencia"
+    },
+    "services": {
+      "webTitle": "Desarrollo web",
+      "webStack": "React, Node.js, Next.js",
+      "webBadge": "Popular",
+      "mobileTitle": "Apps móviles",
+      "mobileStack": "React Native, Flutter",
+      "apiTitle": "APIs e integraciones",
+      "apiStack": "REST, GraphQL, microservicios",
+      "cloudTitle": "Cloud y DevOps",
+      "cloudStack": "AWS, Docker, CI/CD"
+    }
+  },
+  "services": {
+    "badge": "Lo que hacemos",
+    "title": "Servicios diseñados para tus necesidades",
+    "subtitle": "De la idea a producción — cubrimos cada etapa del desarrollo de software con enfoque en calidad y entrega.",
+    "web": {
+      "title": "Desarrollo web",
+      "desc": "Apps web personalizadas con frameworks modernos — rápidas, escalables y fáciles de mantener."
+    },
+    "mobile": {
+      "title": "Apps móviles",
+      "desc": "Apps iOS y Android con un solo código base — rendimiento fluido, experiencia nativa."
+    },
+    "api": {
+      "title": "APIs e integraciones",
+      "desc": "Conecta tus sistemas y servicios de terceros con APIs robustas y bien documentadas."
+    },
+    "cloud": {
+      "title": "Cloud y DevOps",
+      "desc": "Despliega con confianza — pipelines automatizados, orquestación de contenedores e infraestructura en la nube."
+    },
+    "database": {
+      "title": "Diseño de bases de datos",
+      "desc": "Bases de datos relacionales y NoSQL diseñadas para rendimiento, seguridad y crecimiento."
+    },
+    "consulting": {
+      "title": "Consultoría tecnológica",
+      "desc": "Revisiones de arquitectura, decisiones de stack tecnológico y soporte continuo para tu equipo de desarrollo."
+    }
+  },
+  "products": {
+    "badge": "Nuestros productos",
+    "title": "Creados por nosotros, usados cada día",
+    "subtitle": "Además del trabajo con clientes, construimos nuestros propios productos para resolver problemas reales.",
+    "timepow": {
+      "name": "Timepow",
+      "status": "En vivo",
+      "desc": "Una plataforma inteligente de citas con WhatsApp en el centro — agenda, confirma y reagenda sin salir del chat.",
+      "features": {
+        "appointments": {
+          "title": "Agenda de citas",
+          "desc": "Los clientes reservan horarios disponibles en segundos, sin intercambios de mensajes."
+        },
+        "reminders": {
+          "title": "Recordatorios por WhatsApp",
+          "desc": "Recordatorios automáticos enviados directamente por WhatsApp antes de cada cita."
+        },
+        "rescheduling": {
+          "title": "Reagendamiento fácil",
+          "desc": "Los clientes pueden reagendar por su cuenta a través de un flujo sencillo en WhatsApp."
+        },
+        "booking": {
+          "title": "Reserva por WhatsApp",
+          "desc": "Toda la experiencia de reserva ocurre dentro de WhatsApp — sin descargar ninguna app."
+        }
+      }
+    }
+  },
+  "about": {
+    "badge": "Nosotros",
+    "title": "Las personas detrás del código",
+    "subtitle": "Somos un equipo de desarrolladores, diseñadores y solucionadores de problemas apasionados por crear software que marca la diferencia.",
+    "storyTitle": "Nuestra historia",
+    "storyP1": "Agnelo Software fue fundada con una misión clara: entregar software de alta calidad sin la burocracia de las grandes agencias. Trabajamos de cerca con nuestros clientes — desde startups en etapa temprana hasta negocios en crecimiento — para convertir ideas en productos digitales confiables.",
+    "storyP2": "Cada proyecto que tomamos se trata como una alianza a largo plazo, no solo un contrato.",
+    "stats": {
+      "founded": "2026",
+      "foundedLabel": "Año de fundación",
+      "remote": "100%",
+      "remoteLabel": "Equipo remoto",
+      "products": "1",
+      "productsLabel": "Nuestros productos"
+    },
+    "valuesTitle": "Nuestros valores",
+    "values": {
+      "delivery": { "title": "Entrega",      "desc": "A tiempo, siempre" },
+      "quality":  { "title": "Calidad",      "desc": "Código limpio y probado" },
+      "transparency": { "title": "Transparencia", "desc": "Comunicación clara" },
+      "partnership":  { "title": "Alianza",       "desc": "Relaciones a largo plazo" }
+    }
+  },
+  "contact": {
+    "badge": "Contáctanos",
+    "title": "Construyamos algo juntos",
+    "subtitle": "Cuéntanos sobre tu proyecto y te responderemos en menos de 24 horas.",
+    "form": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo electrónico",
+      "company": "Empresa (opcional)",
+      "service": "Servicio",
+      "servicePlaceholder": "Selecciona un servicio...",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu proyecto...",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado! Te responderemos pronto.",
+      "error": "Algo salió mal. Por favor inténtalo de nuevo."
+    },
+    "services": ["Desarrollo web", "App móvil", "APIs e integraciones", "Cloud y DevOps", "Diseño de base de datos", "Consultoría tecnológica", "Otro"],
+    "reachTitle": "Otras formas de contactarnos",
+    "emailLabel": "Correo",
+    "emailValue": "hello@agnelosoftware.com",
+    "responseLabel": "Tiempo de respuesta",
+    "responseValue": "Menos de 24 horas"
+  },
+  "footer": {
+    "tagline": "Innovación · Código · Soluciones",
+    "copyright": "© {{year}} Agnelo Software. Todos los derechos reservados.",
+    "nav": {
+      "services": "Servicios",
+      "products": "Productos",
+      "about": "Nosotros",
+      "contact": "Contacto"
+    }
+  }
+}
