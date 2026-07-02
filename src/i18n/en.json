@@ -85,7 +85,9 @@
           "title": "Book via WhatsApp",
           "desc": "The entire booking experience happens inside WhatsApp — no app to download."
         }
-      }
+      },
+      "ctaProviders": "For providers",
+      "ctaBusinesses": "For businesses"
     }
   },
   "about": {
@@ -132,7 +134,7 @@
     "services": ["Web development", "Mobile app", "APIs & Integrations", "Cloud & DevOps", "Database design", "Tech consulting", "Other"],
     "reachTitle": "Other ways to reach us",
     "emailLabel": "Email",
-    "emailValue": "hello@agnelosoftware.com",
+    "emailValue": "info@agnelosoftware.com",
     "responseLabel": "Response time",
     "responseValue": "Within 24 hours"
   },
@@ -143,7 +145,290 @@
       "services": "Services",
       "products": "Products",
       "about": "About",
-      "contact": "Contact"
+      "contact": "Contact",
+      "forProviders": "For providers",
+      "forBusinesses": "For businesses",
+      "privacy": "Privacy notice"
+    }
+  },
+  "privacidad": {
+    "shared": {
+      "tableThird": "Third party",
+      "tableCountry": "Country",
+      "tablePurpose": "Purpose",
+      "tableLegal": "Legal basis",
+      "usa": "United States of America",
+      "necessary": "Necessary for the service",
+      "noSell": "The Data Controller does not sell, rent, or commercialize personal data with third parties for marketing or advertising purposes.",
+      "noSensitive": "No sensitive personal data is collected within the meaning of Article 3, Section VI of the LFPDPPP.",
+      "arcoAccess": "Access",
+      "arcoAccessDesc": "know what personal data we hold about you and how we use it",
+      "arcoRectification": "Rectification",
+      "arcoRectificationDesc": "request the correction of inaccurate or incomplete data",
+      "arcoCancellation": "Cancellation",
+      "arcoCancellationDesc": "request the deletion of your data when it is no longer needed",
+      "arcoOpposition": "Opposition",
+      "arcoOppositionDesc": "object to the processing of your data for specific purposes",
+      "authorityDesc": "If you believe your right to personal data protection has been violated, you may file a complaint with the",
+      "authorityName": "National Institute of Transparency, Access to Information and Personal Data Protection (INAI)",
+      "authorityWebLabel": "Website:",
+      "authorityPhone": "Phone: 800 835 4324",
+      "lastUpdated": "Last updated:",
+      "lastUpdatedDate": "07/02/2026",
+      "legalFooter": "This privacy notice was prepared in compliance with the Federal Law on Protection of Personal Data Held by Private Parties (DOF 05-07-2010), its Regulations (DOF 21-12-2011), and the Privacy Notice Guidelines (DOF 17-01-2013).",
+      "rfcLabel": "RFC:",
+      "addressLabel": "Address:",
+      "privacyEmailLabel": "Privacy email:",
+      "websiteLabel": "Website:"
+    },
+    "agnelo": {
+      "badge": "Document 1 of 2",
+      "title": "Privacy Notice",
+      "subtitle": "Agnelo Software — Website and Contact Form",
+      "note": "This notice applies to anyone who submits a request through the contact form at agnelosoftware.com.",
+      "s1": {
+        "title": "1. Identity and address of the Data Controller",
+        "company": "[TO COMPLETE: Full legal name], S.A. de C.V.",
+        "rfc": "[TO COMPLETE]",
+        "address": "[TO COMPLETE: Street, number, district, municipality, state, ZIP]",
+        "privacyEmail": "privacy@agnelosoftware.com",
+        "website": "agnelosoftware.com",
+        "responsableWord": "Data Controller",
+        "desc": "decides on the processing of personal data collected through the website contact form."
+      },
+      "s2": {
+        "title": "2. Personal data collected",
+        "intro": "When submitting the contact form, we collect the following data:",
+        "item0": "Full name",
+        "item1": "Email address",
+        "item2": "Company name (optional)",
+        "item3": "Service type of interest",
+        "item4": "Message or project description"
+      },
+      "s3": {
+        "title": "3. Purposes of processing",
+        "primaryTitle": "3.1 Primary purposes",
+        "primary0": "Respond to your information or quote request",
+        "primary1": "Assess the feasibility of a collaboration or project",
+        "primary2": "Contact you to follow up on your inquiry",
+        "secondaryTitle": "3.2 Secondary purposes (you may object)",
+        "secondary0": "Send you information about Agnelo Software services, case studies, or updates",
+        "optOut": "To object to secondary purposes, send an email to privacy@agnelosoftware.com with the subject \"Limitation of use — secondary purposes\"."
+      },
+      "s4": {
+        "title": "4. Transfer of personal data to third parties",
+        "intro": "For email notification delivery, we share your data with the following party, acting as a data processor:",
+        "resendPurpose": "Sending the email notification for your request"
+      },
+      "s5": {
+        "title": "5. ARCO rights and how to exercise them",
+        "desc": "Send your request to privacy@agnelosoftware.com with your full name, registered email, and a description of the right you wish to exercise. We will respond within 20 business days in accordance with Article 32 of the LFPDPPP."
+      },
+      "s6": {
+        "title": "6. Data retention",
+        "desc": "Data collected through the contact form is retained for a maximum of 2 years from the date of submission, or until you request its deletion. After this period, data is permanently deleted from our systems."
+      },
+      "s7": {
+        "title": "7. Changes to this privacy notice",
+        "desc": "The Data Controller reserves the right to modify this notice at any time. Changes will be published on this page. We recommend you check it periodically."
+      },
+      "s8": { "title": "8. Competent authority" }
+    },
+    "atempo": {
+      "badge": "Document 2 of 2",
+      "title": "Privacy Notice",
+      "subtitle": "A Tiempo — Platform Users",
+      "note": "This notice applies to platform users: administrators, providers, and business staff who create an account on A Tiempo.",
+      "warning": "⚠️ Note: This document is a working draft based on LFPDPPP requirements and must be reviewed by a data privacy attorney before publication.",
+      "s1": {
+        "title": "1. Identity and address of the Data Controller",
+        "company": "[TO COMPLETE: Full legal name], S.A. de C.V.",
+        "rfc": "[TO COMPLETE]",
+        "address": "[TO COMPLETE: Street, number, district, municipality, state, ZIP]",
+        "privacyEmail": "privacy@[TO COMPLETE].com",
+        "website": "[TO COMPLETE: URL]",
+        "responsableWord": "Data Controller",
+        "desc": "decides on the processing of personal data collected through the A Tiempo platform."
+      },
+      "s2": {
+        "title": "2. Personal data collected",
+        "sub1Title": "2.1 Identification data",
+        "sub1_0": "Full name",
+        "sub1_1": "Email address",
+        "sub1_2": "Mobile phone number",
+        "sub2Title": "2.2 Employment / professional data",
+        "sub2_0": "Business name or company name",
+        "sub2_1": "Position or role within the business",
+        "sub2_2": "Number of registered employees / providers",
+        "sub3Title": "2.3 Platform usage data",
+        "sub3_0": "IP address",
+        "sub3_1": "Session identifier",
+        "sub3_2": "Date and time of access",
+        "sub3_3": "Actions performed within the platform (audit log)"
+      },
+      "s3": {
+        "title": "3. Purposes of processing",
+        "primaryTitle": "3.1 Primary purposes",
+        "primary0": "Create and manage your user account on the platform",
+        "primary1": "Provide the contracted appointment management and reminder services",
+        "primary2": "Authenticate your identity and ensure platform security",
+        "primary3": "Handle technical support and customer service requests",
+        "primary4": "Comply with applicable legal and tax obligations",
+        "primary5": "Log access to third-party personal data for audit purposes",
+        "secondaryTitle": "3.2 Secondary purposes (you may object)",
+        "secondary0": "Send you communications about new features and updates",
+        "secondary1": "Conduct satisfaction surveys and internal usage studies",
+        "secondary2": "Send you commercial information about other products or services from the Data Controller",
+        "optOut": "If you do not wish your data to be used for secondary purposes, you may indicate so by emailing privacy@[TO COMPLETE].com with the subject \"Limitation of use — secondary purposes\" within 5 business days of receiving this notice."
+      },
+      "s4": {
+        "title": "4. Transfer of personal data to third parties",
+        "intro": "For service provision, the Data Controller shares personal data with the following third parties, who act as data processors:",
+        "mongodbPurpose": "Secure database storage",
+        "twilioPurpose": "Sending reminder messages via WhatsApp",
+        "renderPurpose": "Application hosting and cloud infrastructure"
+      },
+      "s5": {
+        "title": "5. ARCO rights and how to exercise them",
+        "procedureTitle": "5.1 Procedure",
+        "procedureIntro": "Send your request to privacy@[TO COMPLETE].com with:",
+        "proc0": "Full name and email address registered on the platform",
+        "proc1": "Clear description of the right you wish to exercise",
+        "proc2": "Copy of valid official ID (INE, passport)",
+        "proc3": "For rectification: supporting documents for the correction requested",
+        "responseTime": "Response time: 20 business days in accordance with Article 32 of the LFPDPPP."
+      },
+      "s6": {
+        "title": "6. Mechanisms to limit the use of your data",
+        "item0": "Revoke your consent for secondary purposes by sending an email to privacy@[TO COMPLETE].com",
+        "item1": "Request account deletion and removal of all associated data",
+        "item2": "Update your data directly from your account settings"
+      },
+      "s7": {
+        "title": "7. Cookies and tracking technologies",
+        "item0": "Keep your session active securely",
+        "item1": "Remember your language and configuration preferences",
+        "item2": "Analyze platform usage to improve the service",
+        "noCookies": "No third-party cookies are used for advertising or behavioral tracking."
+      },
+      "s8": {
+        "title": "8. Security measures",
+        "item0": "Data in transit encrypted using TLS 1.2 or higher",
+        "item1": "Data at rest encrypted in the database",
+        "item2": "Role-based access control",
+        "item3": "Audit log of personal data access",
+        "item4": "Periodic review of access privileges"
+      },
+      "s9": {
+        "title": "9. Data retention",
+        "p1": "Your personal data will be retained for the duration of your account and the time necessary to comply with applicable legal, accounting, and tax obligations.",
+        "p2Bold": "Minimum retention period by legal obligation:",
+        "p2Text": "5 years (Federal Tax Code, Article 30).",
+        "p3Bold": "Automatic deletion:",
+        "p3Text": "Appointment records older than 5 years are permanently deleted. Personal identification data of patients inactive for more than 5 years is automatically anonymized (name, phone number, and email address), retaining only the statistical records necessary for legal compliance."
+      },
+      "s10": {
+        "title": "10. Changes to this privacy notice",
+        "desc": "The Data Controller reserves the right to modify this notice at any time. Any changes will be notified via a notice on the platform or by email to the registered address."
+      },
+      "s11": { "title": "11. Competent authority" }
+    }
+  },
+  "forProviders": {
+    "hero": {
+      "badge": "For providers",
+      "title": "Focus on patients, not scheduling",
+      "subtitle": "A tiempo handles your calendar, sends reminders, and lets patients book through WhatsApp — so you can do what you do best.",
+      "cta": "Get started free",
+      "ctaSecondary": "See how it works"
+    },
+    "benefits": {
+      "title": "Everything a provider needs",
+      "subtitle": "Built for independent providers and those working inside a clinic — no IT department required.",
+      "items": {
+        "booking":      { "title": "Patients book themselves",           "desc": "Share your link or let the clinic add you. Patients pick their slot — no calls, no back-and-forth." },
+        "reminders":    { "title": "Automatic WhatsApp reminders",        "desc": "Patients get reminded 24 hours before. Confirmation is one tap. No-shows drop dramatically." },
+        "schedule":     { "title": "Real-time schedule view",             "desc": "See your full agenda at a glance. Accept, reschedule, or cancel in seconds from any device." },
+        "reliability":  { "title": "Patient reliability score",           "desc": "Know which patients tend to cancel last-minute. Prioritize your time and reduce wasted slots." },
+        "multiClinic":  { "title": "Works across clinics",                "desc": "Work at more than one location? Your schedule stays unified — one login, all your appointments." },
+        "noApp":        { "title": "No app for patients",                 "desc": "Everything runs through WhatsApp. No downloads, no passwords — patients love it." }
+      }
+    },
+    "howItWorks": {
+      "title": "Up and running in minutes",
+      "subtitle": "Three steps and you're live.",
+      "steps": {
+        "1": { "title": "Join a clinic or create your profile",   "desc": "A clinic administrator adds you as a provider, or you sign up independently." },
+        "2": { "title": "Set your availability",                  "desc": "Define your working hours, procedure types, and appointment durations." },
+        "3": { "title": "Patients book via WhatsApp",             "desc": "They message the clinic's WhatsApp number and pick a slot with you — done." }
+      }
+    },
+    "dataPrivacy": {
+      "badge": "Data & Privacy",
+      "title": "How we handle your data",
+      "subtitle": "Built for LFPDPPP compliance from day one. Here's exactly what we store, how long we keep it, and how you can take it back.",
+      "items": {
+        "whatsapp":     { "title": "WhatsApp messages",    "desc": "Message content is never stored. Only the booking state is kept temporarily in memory and deleted when the conversation ends." },
+        "mobile":       { "title": "Phone numbers",        "desc": "All mobile numbers are encrypted at rest using AES-256. Numbers are displayed masked by default — full numbers are only revealed on explicit request." },
+        "appointments": { "title": "Appointment records",  "desc": "Kept for 5 years from the appointment date, in line with standard medical record retention in Mexico. Permanently deleted after that." },
+        "consent":      { "title": "Consent records",      "desc": "Every consent grant and revocation is logged with a timestamp. Records are retained while the patient has an active relationship with any business on the platform." },
+        "deletion":     { "title": "Account deletion",     "desc": "Patients can request account deletion at any time. Personal data is deleted immediately; appointment slots are anonymized for business reporting." },
+        "business":     { "title": "Business data",        "desc": "On account closure, a 30-day grace period allows you to export your records. After that, all data is permanently deleted." }
+      }
+    },
+    "cta": {
+      "title": "Ready to take control of your schedule?",
+      "subtitle": "Join providers across Querétaro who are spending less time on admin and more time with patients.",
+      "button": "Talk to us"
+    }
+  },
+  "forBusinesses": {
+    "hero": {
+      "badge": "For businesses",
+      "title": "Run your clinic without the chaos",
+      "subtitle": "A tiempo gives you a single dashboard to manage every provider, appointment, and patient interaction — all powered by WhatsApp.",
+      "cta": "Request a demo",
+      "ctaSecondary": "See all features"
+    },
+    "benefits": {
+      "title": "Built for growing businesses",
+      "subtitle": "From a solo-provider office to a multi-room clinic — A tiempo scales with you.",
+      "items": {
+        "multiProvider": { "title": "Manage multiple providers",   "desc": "Add your entire team. Each provider has their own schedule — you see everything in one place." },
+        "whatsapp":      { "title": "WhatsApp at the center",      "desc": "One business WhatsApp number handles all booking, confirmation, and rescheduling — automatically." },
+        "dashboard":     { "title": "Admin dashboard",             "desc": "Full visibility into daily appointments, patient history, and provider schedules. No more spreadsheets." },
+        "noShows":       { "title": "Reduce no-shows",             "desc": "Automated WhatsApp reminders with one-tap confirmation cut last-minute cancellations significantly." },
+        "consent":       { "title": "Patient consent built in",    "desc": "LFPDPPP-compliant consent flow built into every interaction. Privacy handled, audit trail included." },
+        "reliability":   { "title": "Reliability scoring",         "desc": "See which patients consistently cancel. Flag high-risk bookings and protect your providers' time." }
+      }
+    },
+    "features": {
+      "title": "The full picture",
+      "subtitle": "Every feature designed to reduce admin overhead and keep patients coming back.",
+      "items": {
+        "calendar":      { "title": "Unified calendar",           "desc": "All providers, all rooms, one view. Filter by provider, date, or appointment status." },
+        "booking":       { "title": "Online + WhatsApp booking",  "desc": "Patients can book through a shareable link or directly through WhatsApp — both flows sync to the same calendar." },
+        "notifications": { "title": "Automated notifications",    "desc": "Confirmation, reminder, and rescheduling messages sent automatically — in Spanish, timed to the patient's timezone." },
+        "auditLog":      { "title": "Full audit log",             "desc": "Every change to an appointment is recorded. Know who booked, who cancelled, and when." }
+      }
+    },
+    "dataPrivacy": {
+      "badge": "Data & Privacy",
+      "title": "How we handle your data",
+      "subtitle": "Built for LFPDPPP compliance from day one. Here's exactly what we store, how long we keep it, and how you can take it back.",
+      "items": {
+        "whatsapp":     { "title": "WhatsApp messages",    "desc": "Message content is never stored. Only the booking state is kept temporarily in memory and deleted when the conversation ends." },
+        "mobile":       { "title": "Phone numbers",        "desc": "All mobile numbers are encrypted at rest using AES-256. Numbers are displayed masked by default — full numbers are only revealed on explicit request." },
+        "appointments": { "title": "Appointment records",  "desc": "Kept for 5 years from the appointment date, in line with standard medical record retention in Mexico. Permanently deleted after that." },
+        "consent":      { "title": "Consent records",      "desc": "Every consent grant and revocation is logged with a timestamp. Records are retained while the patient has an active relationship with any business on the platform." },
+        "deletion":     { "title": "Account deletion",     "desc": "Patients can request account deletion at any time. Personal data is deleted immediately; appointment slots are anonymized for business reporting." },
+        "business":     { "title": "Business data",        "desc": "On account closure, a 30-day grace period allows you to export your records. After that, all data is permanently deleted." }
+      }
+    },
+    "cta": {
+      "title": "See A tiempo in action",
+      "subtitle": "We'll walk you through a live demo tailored to your clinic type.",
+      "button": "Book a free demo"
     }
   }
 }

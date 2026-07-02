@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import { Tag } from 'primereact/tag';
 import {
@@ -51,6 +52,16 @@ export function Products() {
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className={styles.cardFooter}>
+            <Link href="/para-proveedores" className={styles.footerLink}>
+              {t('products.timepow.ctaProviders')} →
+            </Link>
+            <span className={styles.footerDivider} />
+            <Link href="/para-negocios" className={styles.footerLink}>
+              {t('products.timepow.ctaBusinesses')} →
+            </Link>
           </div>
         </div>
       </div>

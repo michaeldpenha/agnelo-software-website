@@ -1,0 +1,57 @@
+.howItWorks {
+  background: var(--surface-1);
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.steps::before {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 44px;
+  bottom: 44px;
+  width: 2px;
+  background: var(--border);
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 28px 0;
+  position: relative;
+}
+
+.step:not(:last-child) {
+  border-bottom: none;
+}
+
+.number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 6px;
+}

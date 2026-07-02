@@ -27,7 +27,7 @@ export function ContactInfo({ siteSettings }: Props) {
     () => [
       {
         labelKey: 'contact.emailLabel',
-        value: process.env.CONTACT_EMAIL || t('contact.emailValue'),
+        value: siteSettings?.contactEmail || process.env.NEXT_PUBLIC_CONTACT_EMAIL || t('contact.emailValue'),
         Icon: IconMail,
         color: '#2563EB',
         bg: '#EFF6FF',

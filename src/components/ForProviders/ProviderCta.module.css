@@ -1,0 +1,36 @@
+.cta {
+  background: var(--primary);
+}
+
+.content {
+  text-align: center;
+  max-width: 560px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  color: #fff !important;
+  margin: 0;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.8) !important;
+  margin: 0;
+}
+
+.btn {
+  background: #fff !important;
+  color: var(--primary) !important;
+  border: none !important;
+  padding: 12px 28px !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.9) !important;
+}

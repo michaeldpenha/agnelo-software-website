@@ -85,7 +85,9 @@
           "title": "Reserva por WhatsApp",
           "desc": "Toda la experiencia de reserva ocurre dentro de WhatsApp — sin descargar ninguna app."
         }
-      }
+      },
+      "ctaProviders": "Para proveedores",
+      "ctaBusinesses": "Para negocios"
     }
   },
   "about": {
@@ -132,7 +134,7 @@
     "services": ["Desarrollo web", "App móvil", "APIs e integraciones", "Cloud y DevOps", "Diseño de base de datos", "Consultoría tecnológica", "Otro"],
     "reachTitle": "Otras formas de contactarnos",
     "emailLabel": "Correo",
-    "emailValue": "hello@agnelosoftware.com",
+    "emailValue": "info@agnelosoftware.com",
     "responseLabel": "Tiempo de respuesta",
     "responseValue": "Menos de 24 horas"
   },
@@ -143,7 +145,290 @@
       "services": "Servicios",
       "products": "Productos",
       "about": "Nosotros",
-      "contact": "Contacto"
+      "contact": "Contacto",
+      "forProviders": "Para proveedores",
+      "forBusinesses": "Para negocios",
+      "privacy": "Aviso de privacidad"
+    }
+  },
+  "privacidad": {
+    "shared": {
+      "tableThird": "Tercero",
+      "tableCountry": "País",
+      "tablePurpose": "Finalidad",
+      "tableLegal": "Base legal",
+      "usa": "Estados Unidos de América",
+      "necessary": "Necesario para el servicio",
+      "noSell": "El Responsable no vende, arrienda ni comercializa datos personales con terceros para fines de mercadotecnia o publicidad.",
+      "noSensitive": "No se recaban datos personales sensibles en los términos del artículo 3, fracción VI de la LFPDPPP.",
+      "arcoAccess": "Acceso",
+      "arcoAccessDesc": "conocer qué datos personales tenemos de usted y para qué los usamos",
+      "arcoRectification": "Rectificación",
+      "arcoRectificationDesc": "solicitar la corrección de datos inexactos o incompletos",
+      "arcoCancellation": "Cancelación",
+      "arcoCancellationDesc": "solicitar la supresión de sus datos cuando ya no sean necesarios",
+      "arcoOpposition": "Oposición",
+      "arcoOppositionDesc": "oponerse al tratamiento de sus datos para finalidades específicas",
+      "authorityDesc": "Si considera que su derecho a la protección de datos personales ha sido lesionado, puede interponer una queja ante el",
+      "authorityName": "Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)",
+      "authorityWebLabel": "Sitio web:",
+      "authorityPhone": "Teléfono: 800 835 4324",
+      "lastUpdated": "Fecha de última actualización:",
+      "lastUpdatedDate": "02/07/2026",
+      "legalFooter": "Este aviso de privacidad fue elaborado en cumplimiento de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (DOF 05-07-2010), su Reglamento (DOF 21-12-2011) y los Lineamientos del Aviso de Privacidad (DOF 17-01-2013).",
+      "rfcLabel": "RFC:",
+      "addressLabel": "Domicilio:",
+      "privacyEmailLabel": "Correo de privacidad:",
+      "websiteLabel": "Sitio web:"
+    },
+    "agnelo": {
+      "badge": "Documento 1 de 2",
+      "title": "Aviso de Privacidad",
+      "subtitle": "Agnelo Software — Sitio web y formulario de contacto",
+      "note": "Este aviso aplica a cualquier persona que envíe una solicitud a través del formulario de contacto en agnelosoftware.com.",
+      "s1": {
+        "title": "1. Identidad y domicilio del Responsable",
+        "company": "[COMPLETAR: Razón social completa], S.A. de C.V.",
+        "rfc": "[COMPLETAR]",
+        "address": "[COMPLETAR: Calle, número, colonia, municipio, estado, C.P.]",
+        "privacyEmail": "privacidad@agnelosoftware.com",
+        "website": "agnelosoftware.com",
+        "responsableWord": "Responsable",
+        "desc": "es quien decide sobre el tratamiento de los datos personales recabados a través del formulario de contacto del sitio web."
+      },
+      "s2": {
+        "title": "2. Datos personales que se recaban",
+        "intro": "Al enviar el formulario de contacto, recabamos los siguientes datos:",
+        "item0": "Nombre y apellido",
+        "item1": "Correo electrónico",
+        "item2": "Nombre de empresa (opcional)",
+        "item3": "Tipo de servicio de interés",
+        "item4": "Mensaje o descripción del proyecto"
+      },
+      "s3": {
+        "title": "3. Finalidades del tratamiento",
+        "primaryTitle": "3.1 Finalidades primarias",
+        "primary0": "Responder a su solicitud de información o cotización",
+        "primary1": "Evaluar la viabilidad de una colaboración o proyecto",
+        "primary2": "Contactarle para dar seguimiento a su consulta",
+        "secondaryTitle": "3.2 Finalidades secundarias (puede oponerse)",
+        "secondary0": "Enviarle información sobre servicios, casos de éxito o actualizaciones de Agnelo Software",
+        "optOut": "Para oponerse a las finalidades secundarias, envíe un correo a privacidad@agnelosoftware.com con el asunto \"Limitación de uso — finalidades secundarias\"."
+      },
+      "s4": {
+        "title": "4. Transferencias de datos personales a terceros",
+        "intro": "Para la entrega de notificaciones por correo electrónico, compartimos sus datos con el siguiente tercero, quien actúa como Encargado del tratamiento:",
+        "resendPurpose": "Envío del correo de notificación de su solicitud"
+      },
+      "s5": {
+        "title": "5. Derechos ARCO y cómo ejercerlos",
+        "desc": "Envíe su solicitud a privacidad@agnelosoftware.com indicando nombre completo, correo registrado y una descripción del derecho que desea ejercer. Responderemos en un plazo máximo de 20 días hábiles conforme al artículo 32 de la LFPDPPP."
+      },
+      "s6": {
+        "title": "6. Conservación de datos",
+        "desc": "Los datos recabados a través del formulario de contacto se conservan por un periodo máximo de 2 años contados a partir de la fecha de envío, o hasta que usted solicite su cancelación. Transcurrido ese plazo, los datos son eliminados de forma permanente de nuestros sistemas."
+      },
+      "s7": {
+        "title": "7. Cambios al presente aviso de privacidad",
+        "desc": "El Responsable se reserva el derecho de modificar este aviso en cualquier momento. Los cambios serán publicados en esta misma página. Le recomendamos consultarla periódicamente."
+      },
+      "s8": { "title": "8. Autoridad competente" }
+    },
+    "atempo": {
+      "badge": "Documento 2 de 2",
+      "title": "Aviso de Privacidad",
+      "subtitle": "A Tiempo — Usuarios de la plataforma",
+      "note": "Este aviso aplica a los usuarios de la plataforma: administradores, proveedores y personal de negocio que crean una cuenta en A Tiempo.",
+      "warning": "⚠️ Nota: Este documento es un borrador de trabajo basado en los requisitos de la LFPDPPP y debe ser revisado por un abogado especialista en privacidad de datos antes de su publicación.",
+      "s1": {
+        "title": "1. Identidad y domicilio del Responsable",
+        "company": "[COMPLETAR: Razón social completa], S.A. de C.V.",
+        "rfc": "[COMPLETAR]",
+        "address": "[COMPLETAR: Calle, número, colonia, municipio, estado, C.P.]",
+        "privacyEmail": "privacidad@[COMPLETAR].com",
+        "website": "[COMPLETAR: URL]",
+        "responsableWord": "Responsable",
+        "desc": "es quien decide sobre el tratamiento de los datos personales recabados a través de la plataforma A Tiempo."
+      },
+      "s2": {
+        "title": "2. Datos personales que se recaban",
+        "sub1Title": "2.1 Datos de identificación",
+        "sub1_0": "Nombre completo",
+        "sub1_1": "Correo electrónico",
+        "sub1_2": "Número de teléfono celular",
+        "sub2Title": "2.2 Datos laborales / profesionales",
+        "sub2_0": "Nombre o razón social del negocio",
+        "sub2_1": "Cargo o rol dentro del negocio",
+        "sub2_2": "Número de empleados / proveedores registrados",
+        "sub3Title": "2.3 Datos de uso de la plataforma",
+        "sub3_0": "Dirección IP",
+        "sub3_1": "Identificador de sesión",
+        "sub3_2": "Fecha y hora de acceso",
+        "sub3_3": "Acciones realizadas dentro de la plataforma (registro de auditoría)"
+      },
+      "s3": {
+        "title": "3. Finalidades del tratamiento",
+        "primaryTitle": "3.1 Finalidades primarias",
+        "primary0": "Crear y gestionar su cuenta de usuario en la plataforma",
+        "primary1": "Prestar los servicios de gestión de citas y recordatorios contratados",
+        "primary2": "Autenticar su identidad y garantizar la seguridad de la plataforma",
+        "primary3": "Atender solicitudes de soporte técnico y servicio al cliente",
+        "primary4": "Cumplir con obligaciones legales y fiscales aplicables",
+        "primary5": "Registrar el acceso a datos personales de terceros con fines de auditoría",
+        "secondaryTitle": "3.2 Finalidades secundarias (puede oponerse)",
+        "secondary0": "Enviarle comunicaciones sobre nuevas funcionalidades y actualizaciones",
+        "secondary1": "Realizarle encuestas de satisfacción y estudios internos de uso",
+        "secondary2": "Enviarle información comercial sobre otros productos o servicios del Responsable",
+        "optOut": "Si no desea que sus datos sean tratados para las finalidades secundarias, puede manifestarlo enviando un correo a privacidad@[COMPLETAR].com con el asunto \"Limitación de uso — finalidades secundarias\" dentro de los 5 días hábiles siguientes a la recepción de este aviso."
+      },
+      "s4": {
+        "title": "4. Transferencias de datos personales a terceros",
+        "intro": "Para la prestación del servicio, el Responsable comparte datos personales con los siguientes terceros, quienes actúan como Encargados del tratamiento:",
+        "mongodbPurpose": "Almacenamiento seguro de la base de datos",
+        "twilioPurpose": "Envío de mensajes de recordatorio vía WhatsApp",
+        "renderPurpose": "Hospedaje de la aplicación e infraestructura en la nube"
+      },
+      "s5": {
+        "title": "5. Derechos ARCO y cómo ejercerlos",
+        "procedureTitle": "5.1 Procedimiento",
+        "procedureIntro": "Envíe su solicitud a privacidad@[COMPLETAR].com con:",
+        "proc0": "Nombre completo y correo electrónico registrado en la plataforma",
+        "proc1": "Descripción clara del derecho que desea ejercer",
+        "proc2": "Copia de identificación oficial vigente (INE, pasaporte)",
+        "proc3": "En caso de rectificación: documentos que soporten la corrección solicitada",
+        "responseTime": "Plazo de respuesta: 20 días hábiles conforme al artículo 32 de la LFPDPPP."
+      },
+      "s6": {
+        "title": "6. Mecanismos para limitar el uso de sus datos",
+        "item0": "Revocar su consentimiento para finalidades secundarias enviando un correo a privacidad@[COMPLETAR].com",
+        "item1": "Solicitar la eliminación de su cuenta y de todos los datos asociados",
+        "item2": "Actualizar sus datos directamente desde la configuración de su cuenta"
+      },
+      "s7": {
+        "title": "7. Uso de cookies y tecnologías de rastreo",
+        "item0": "Mantener su sesión activa de forma segura",
+        "item1": "Recordar sus preferencias de idioma y configuración",
+        "item2": "Analizar el uso de la plataforma para mejorar el servicio",
+        "noCookies": "No se utilizan cookies de terceros para publicidad o rastreo comportamental."
+      },
+      "s8": {
+        "title": "8. Medidas de seguridad",
+        "item0": "Cifrado de datos en tránsito mediante TLS 1.2 o superior",
+        "item1": "Cifrado de datos en reposo en la base de datos",
+        "item2": "Control de acceso basado en roles",
+        "item3": "Registro de auditoría de acceso a datos personales",
+        "item4": "Revisión periódica de privilegios de acceso"
+      },
+      "s9": {
+        "title": "9. Conservación de datos",
+        "p1": "Sus datos personales serán conservados durante la vigencia de su cuenta y el tiempo necesario para cumplir con las obligaciones legales, contables y fiscales aplicables.",
+        "p2Bold": "Periodo mínimo de conservación por obligación legal:",
+        "p2Text": "5 años (Código Fiscal de la Federación, artículo 30).",
+        "p3Bold": "Eliminación automática:",
+        "p3Text": "Los registros de citas con más de 5 años de antigüedad son eliminados de forma permanente de nuestros sistemas. Los datos de identificación personal de clientes inactivos por más de 5 años son anonimizados automáticamente (nombre, teléfono y correo electrónico), conservando únicamente los registros estadísticos necesarios para cumplimiento legal."
+      },
+      "s10": {
+        "title": "10. Cambios al presente aviso de privacidad",
+        "desc": "El Responsable se reserva el derecho de modificar este aviso en cualquier momento. Cualquier modificación será notificada mediante aviso en la plataforma o correo electrónico a la dirección registrada."
+      },
+      "s11": { "title": "11. Autoridad competente" }
+    }
+  },
+  "forProviders": {
+    "hero": {
+      "badge": "Para proveedores",
+      "title": "Concéntrate en tus pacientes, no en la agenda",
+      "subtitle": "A tiempo gestiona tu calendario, envía recordatorios y permite que los pacientes agenden por WhatsApp — para que tú hagas lo que mejor sabes hacer.",
+      "cta": "Comenzar gratis",
+      "ctaSecondary": "Ver cómo funciona"
+    },
+    "benefits": {
+      "title": "Todo lo que un proveedor necesita",
+      "subtitle": "Diseñado para proveedores independientes y los que trabajan en una clínica — sin necesidad de soporte de TI.",
+      "items": {
+        "booking":      { "title": "Los pacientes se agendan solos",              "desc": "Comparte tu enlace o deja que la clínica te agregue. Los pacientes eligen su horario — sin llamadas ni mensajes de ida y vuelta." },
+        "reminders":    { "title": "Recordatorios automáticos por WhatsApp",      "desc": "Los pacientes reciben un recordatorio 24 horas antes. La confirmación es con un toque. Las inasistencias caen notablemente." },
+        "schedule":     { "title": "Vista de agenda en tiempo real",              "desc": "Ve toda tu agenda de un vistazo. Acepta, reagenda o cancela en segundos desde cualquier dispositivo." },
+        "reliability":  { "title": "Puntuación de confiabilidad del paciente",   "desc": "Identifica qué pacientes suelen cancelar a última hora. Prioriza tu tiempo y reduce los huecos desperdiciados." },
+        "multiClinic":  { "title": "Funciona en varias clínicas",                "desc": "¿Trabajas en más de un lugar? Tu agenda se mantiene unificada — un solo acceso, todas tus citas." },
+        "noApp":        { "title": "Sin app para los pacientes",                  "desc": "Todo funciona por WhatsApp. Sin descargas, sin contraseñas — a los pacientes les encanta." }
+      }
+    },
+    "howItWorks": {
+      "title": "Listo en minutos",
+      "subtitle": "Tres pasos y ya estás en línea.",
+      "steps": {
+        "1": { "title": "Únete a una clínica o crea tu perfil",   "desc": "Un administrador de clínica te agrega como proveedor, o te registras de forma independiente." },
+        "2": { "title": "Define tu disponibilidad",               "desc": "Establece tu horario, tipos de procedimientos y duración de citas." },
+        "3": { "title": "Los pacientes agendan por WhatsApp",     "desc": "Le escriben al número de WhatsApp de la clínica y eligen un horario contigo — listo." }
+      }
+    },
+    "dataPrivacy": {
+      "badge": "Datos y privacidad",
+      "title": "Cómo manejamos tus datos",
+      "subtitle": "Diseñado para cumplir con la LFPDPPP desde el primer día. Aquí está exactamente qué almacenamos, por cuánto tiempo y cómo puedes recuperarlo.",
+      "items": {
+        "whatsapp":     { "title": "Mensajes de WhatsApp",          "desc": "El contenido de los mensajes nunca se almacena. Solo el estado de la reserva se guarda temporalmente en memoria y se elimina al terminar la conversación." },
+        "mobile":       { "title": "Números de teléfono",           "desc": "Todos los números móviles se cifran en reposo con AES-256. Los números se muestran enmascarados por defecto — el número completo solo se revela bajo solicitud explícita." },
+        "appointments": { "title": "Registros de citas",            "desc": "Se conservan durante 5 años desde la fecha de la cita, conforme a la retención estándar de expedientes médicos en México. Se eliminan permanentemente después." },
+        "consent":      { "title": "Registros de consentimiento",   "desc": "Cada otorgamiento y revocación de consentimiento se registra con marca de tiempo. Los registros se conservan mientras el paciente tenga una relación activa en la plataforma." },
+        "deletion":     { "title": "Eliminación de cuenta",         "desc": "Los pacientes pueden solicitar la eliminación de su cuenta en cualquier momento. Los datos personales se eliminan de inmediato; las citas se anonimizan para los reportes del negocio." },
+        "business":     { "title": "Datos del negocio",             "desc": "Al cerrar la cuenta, hay un período de gracia de 30 días para exportar tus registros. Después, todos los datos se eliminan permanentemente." }
+      }
+    },
+    "cta": {
+      "title": "¿Listo para tomar el control de tu agenda?",
+      "subtitle": "Únete a los proveedores de Querétaro que pasan menos tiempo en administración y más con sus pacientes.",
+      "button": "Contáctanos"
+    }
+  },
+  "forBusinesses": {
+    "hero": {
+      "badge": "Para negocios",
+      "title": "Administra tu clínica sin el caos",
+      "subtitle": "A tiempo te da un tablero único para gestionar cada proveedor, cita e interacción con pacientes — todo impulsado por WhatsApp.",
+      "cta": "Solicitar demo",
+      "ctaSecondary": "Ver todas las funciones"
+    },
+    "benefits": {
+      "title": "Diseñado para negocios que crecen",
+      "subtitle": "Desde un consultorio con un solo proveedor hasta una clínica con múltiples salas — A tiempo crece contigo.",
+      "items": {
+        "multiProvider": { "title": "Gestiona múltiples proveedores",   "desc": "Agrega a todo tu equipo. Cada proveedor tiene su propia agenda — tú lo ves todo en un solo lugar." },
+        "whatsapp":      { "title": "WhatsApp en el centro",            "desc": "Un número de WhatsApp de negocio gestiona toda la agenda, confirmación y reagendamiento — de forma automática." },
+        "dashboard":     { "title": "Tablero de administración",        "desc": "Visibilidad total sobre las citas del día, historial de pacientes y agendas de proveedores. Adiós a las hojas de cálculo." },
+        "noShows":       { "title": "Reduce las inasistencias",         "desc": "Los recordatorios automáticos por WhatsApp con confirmación de un toque reducen significativamente las cancelaciones de último momento." },
+        "consent":       { "title": "Consentimiento de pacientes",      "desc": "Flujo de consentimiento compatible con la LFPDPPP en cada interacción. Privacidad gestionada, con registro de auditoría incluido." },
+        "reliability":   { "title": "Puntuación de confiabilidad",      "desc": "Identifica qué pacientes cancelan con frecuencia. Marca reservas de alto riesgo y protege el tiempo de tus proveedores." }
+      }
+    },
+    "features": {
+      "title": "El panorama completo",
+      "subtitle": "Cada función diseñada para reducir la carga administrativa y fidelizar a los pacientes.",
+      "items": {
+        "calendar":      { "title": "Calendario unificado",        "desc": "Todos los proveedores, todas las salas, una sola vista. Filtra por proveedor, fecha o estado de la cita." },
+        "booking":       { "title": "Agenda en línea + WhatsApp",  "desc": "Los pacientes pueden agendar por un enlace compartible o directamente por WhatsApp — ambos flujos se sincronizan en el mismo calendario." },
+        "notifications": { "title": "Notificaciones automáticas",  "desc": "Mensajes de confirmación, recordatorio y reagendamiento enviados automáticamente — en español, en la zona horaria del paciente." },
+        "auditLog":      { "title": "Registro de auditoría",       "desc": "Cada cambio en una cita queda registrado. Sabe quién agendó, quién canceló y cuándo." }
+      }
+    },
+    "dataPrivacy": {
+      "badge": "Datos y privacidad",
+      "title": "Cómo manejamos tus datos",
+      "subtitle": "Diseñado para cumplir con la LFPDPPP desde el primer día. Aquí está exactamente qué almacenamos, por cuánto tiempo y cómo puedes recuperarlo.",
+      "items": {
+        "whatsapp":     { "title": "Mensajes de WhatsApp",          "desc": "El contenido de los mensajes nunca se almacena. Solo el estado de la reserva se guarda temporalmente en memoria y se elimina al terminar la conversación." },
+        "mobile":       { "title": "Números de teléfono",           "desc": "Todos los números móviles se cifran en reposo con AES-256. Los números se muestran enmascarados por defecto — el número completo solo se revela bajo solicitud explícita." },
+        "appointments": { "title": "Registros de citas",            "desc": "Se conservan durante 5 años desde la fecha de la cita, conforme a la retención estándar de expedientes médicos en México. Se eliminan permanentemente después." },
+        "consent":      { "title": "Registros de consentimiento",   "desc": "Cada otorgamiento y revocación de consentimiento se registra con marca de tiempo. Los registros se conservan mientras el paciente tenga una relación activa en la plataforma." },
+        "deletion":     { "title": "Eliminación de cuenta",         "desc": "Los pacientes pueden solicitar la eliminación de su cuenta en cualquier momento. Los datos personales se eliminan de inmediato; las citas se anonimizan para los reportes del negocio." },
+        "business":     { "title": "Datos del negocio",             "desc": "Al cerrar la cuenta, hay un período de gracia de 30 días para exportar tus registros. Después, todos los datos se eliminan permanentemente." }
+      }
+    },
+    "cta": {
+      "title": "Mira A tiempo en acción",
+      "subtitle": "Te hacemos una demo en vivo adaptada al tipo de tu clínica.",
+      "button": "Reservar demo gratuita"
     }
   }
 }

@@ -29,10 +29,17 @@
   letter-spacing: 1px;
 }
 
+.navGroup {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+}
+
 .nav {
   display: flex;
-  gap: 24px;
-  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
 }
 
 .nav a {
@@ -55,7 +62,7 @@
   color: rgba(255, 255, 255, 0.35);
 }
 
-@media (max-width: 560px) {
-  .top { flex-direction: column; gap: 20px; }
-  .nav { flex-wrap: wrap; gap: 16px; }
+@media (max-width: 640px) {
+  .top { flex-direction: column; gap: 24px; }
+  .navGroup { gap: 32px; }
 }

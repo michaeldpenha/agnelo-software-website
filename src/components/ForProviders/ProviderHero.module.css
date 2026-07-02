@@ -1,0 +1,53 @@
+.hero {
+  background: var(--surface-1);
+  text-align: center;
+}
+
+.content {
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.badge {
+  font-size: 11px !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  margin: 0;
+  max-width: 560px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.primaryBtn {
+  padding: 12px 28px !important;
+  font-size: 15px !important;
+}
+
+.secondaryLink {
+  font-size: 15px;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.secondaryLink:hover {
+  text-decoration: underline;
+}
