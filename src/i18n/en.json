@@ -248,7 +248,8 @@
         "privacyEmail": "privacy@[TO COMPLETE].com",
         "website": "[TO COMPLETE: URL]",
         "responsableWord": "Data Controller",
-        "desc": "decides on the processing of personal data collected through the A Tiempo platform."
+        "desc": "decides on the processing of personal data collected through the A Tiempo platform.",
+        "processorNote": "The business you booked with acts as the data controller and has authorised A Tiempo to process data on their behalf."
       },
       "s2": {
         "title": "2. Personal data collected",
@@ -325,7 +326,7 @@
         "p2Bold": "Minimum retention period by legal obligation:",
         "p2Text": "5 years (Federal Tax Code, Article 30).",
         "p3Bold": "Automatic deletion:",
-        "p3Text": "Appointment records older than 5 years are permanently deleted. Personal identification data of patients inactive for more than 5 years is automatically anonymized (name, phone number, and email address), retaining only the statistical records necessary for legal compliance."
+        "p3Text": "Appointment records older than 5 years are permanently deleted. Personal identification data of Clients inactive for more than 5 years is automatically anonymized (name, phone number, and email address), retaining only the statistical records necessary for legal compliance."
       },
       "s10": {
         "title": "10. Changes to this privacy notice",
@@ -337,30 +338,30 @@
   "forProviders": {
     "hero": {
       "badge": "For providers",
-      "title": "Focus on patients, not scheduling",
-      "subtitle": "A tiempo handles your calendar, sends reminders, and lets patients book through WhatsApp — so you can do what you do best.",
+      "title": "Focus on Clients, not scheduling",
+      "subtitle": "A tiempo handles your calendar, sends reminders, and lets Clients book through WhatsApp — so you can do what you do best.",
       "cta": "Get started free",
       "ctaSecondary": "See how it works"
     },
     "benefits": {
       "title": "Everything a provider needs",
-      "subtitle": "Built for independent providers and those working inside a clinic — no IT department required.",
+      "subtitle": "Built for independent providers and those working inside a business — no IT department required.",
       "items": {
-        "booking":      { "title": "Patients book themselves",           "desc": "Share your link or let the clinic add you. Patients pick their slot — no calls, no back-and-forth." },
-        "reminders":    { "title": "Automatic WhatsApp reminders",        "desc": "Patients get reminded 24 hours before. Confirmation is one tap. No-shows drop dramatically." },
+        "booking":      { "title": "Clients book themselves",           "desc": "Share your link or let the business add you. Clients pick their slot — no calls, no back-and-forth." },
+        "reminders":    { "title": "Automatic WhatsApp reminders",        "desc": "Clients get reminded 24 hours before. Confirmation is one tap. No-shows drop dramatically." },
         "schedule":     { "title": "Real-time schedule view",             "desc": "See your full agenda at a glance. Accept, reschedule, or cancel in seconds from any device." },
-        "reliability":  { "title": "Patient reliability score",           "desc": "Know which patients tend to cancel last-minute. Prioritize your time and reduce wasted slots." },
-        "multiClinic":  { "title": "Works across clinics",                "desc": "Work at more than one location? Your schedule stays unified — one login, all your appointments." },
-        "noApp":        { "title": "No app for patients",                 "desc": "Everything runs through WhatsApp. No downloads, no passwords — patients love it." }
+        "reliability":  { "title": "Client reliability score",           "desc": "Know which Clients tend to cancel last-minute. Prioritize your time and reduce wasted slots." },
+        "multibusiness":  { "title": "Works across businesses",                "desc": "Work at more than one location? Your schedule stays unified — one login, all your appointments." },
+        "noApp":        { "title": "No app for Clients",                 "desc": "Everything runs through WhatsApp. No downloads, no passwords — Clients love it." }
       }
     },
     "howItWorks": {
       "title": "Up and running in minutes",
       "subtitle": "Three steps and you're live.",
       "steps": {
-        "1": { "title": "Join a clinic or create your profile",   "desc": "A clinic administrator adds you as a provider, or you sign up independently." },
+        "1": { "title": "Join a business or create your profile",   "desc": "A business administrator adds you as a provider, or you sign up independently." },
         "2": { "title": "Set your availability",                  "desc": "Define your working hours, procedure types, and appointment durations." },
-        "3": { "title": "Patients book via WhatsApp",             "desc": "They message the clinic's WhatsApp number and pick a slot with you — done." }
+        "3": { "title": "Clients book via WhatsApp",             "desc": "They message the business's WhatsApp number and pick a slot with you — done." }
       }
     },
     "dataPrivacy": {
@@ -371,44 +372,44 @@
         "whatsapp":     { "title": "WhatsApp messages",    "desc": "Message content is never stored. Only the booking state is kept temporarily in memory and deleted when the conversation ends." },
         "mobile":       { "title": "Phone numbers",        "desc": "All mobile numbers are encrypted at rest using AES-256. Numbers are displayed masked by default — full numbers are only revealed on explicit request." },
         "appointments": { "title": "Appointment records",  "desc": "Kept for 5 years from the appointment date, in line with standard medical record retention in Mexico. Permanently deleted after that." },
-        "consent":      { "title": "Consent records",      "desc": "Every consent grant and revocation is logged with a timestamp. Records are retained while the patient has an active relationship with any business on the platform." },
-        "deletion":     { "title": "Account deletion",     "desc": "Patients can request account deletion at any time. Personal data is deleted immediately; appointment slots are anonymized for business reporting." },
+        "consent":      { "title": "Consent records",      "desc": "Every consent grant and revocation is logged with a timestamp. Records are retained while the Client has an active relationship with any business on the platform." },
+        "deletion":     { "title": "Account deletion",     "desc": "Clients can request account deletion at any time. Personal data is deleted immediately; appointment slots are anonymized for business reporting." },
         "business":     { "title": "Business data",        "desc": "On account closure, a 30-day grace period allows you to export your records. After that, all data is permanently deleted." }
       }
     },
     "cta": {
       "title": "Ready to take control of your schedule?",
-      "subtitle": "Join providers across Querétaro who are spending less time on admin and more time with patients.",
+      "subtitle": "Join providers across Querétaro who are spending less time on admin and more time with Clients.",
       "button": "Talk to us"
     }
   },
   "forBusinesses": {
     "hero": {
       "badge": "For businesses",
-      "title": "Run your clinic without the chaos",
-      "subtitle": "A tiempo gives you a single dashboard to manage every provider, appointment, and patient interaction — all powered by WhatsApp.",
+      "title": "Run your business without the chaos",
+      "subtitle": "A tiempo gives you a single dashboard to manage every provider, appointment, and Client interaction — all powered by WhatsApp.",
       "cta": "Request a demo",
       "ctaSecondary": "See all features"
     },
     "benefits": {
       "title": "Built for growing businesses",
-      "subtitle": "From a solo-provider office to a multi-room clinic — A tiempo scales with you.",
+      "subtitle": "From a solo-provider office to a multi-room business — A tiempo scales with you.",
       "items": {
         "multiProvider": { "title": "Manage multiple providers",   "desc": "Add your entire team. Each provider has their own schedule — you see everything in one place." },
         "whatsapp":      { "title": "WhatsApp at the center",      "desc": "One business WhatsApp number handles all booking, confirmation, and rescheduling — automatically." },
-        "dashboard":     { "title": "Admin dashboard",             "desc": "Full visibility into daily appointments, patient history, and provider schedules. No more spreadsheets." },
+        "dashboard":     { "title": "Admin dashboard",             "desc": "Full visibility into daily appointments, Client history, and provider schedules. No more spreadsheets." },
         "noShows":       { "title": "Reduce no-shows",             "desc": "Automated WhatsApp reminders with one-tap confirmation cut last-minute cancellations significantly." },
-        "consent":       { "title": "Patient consent built in",    "desc": "LFPDPPP-compliant consent flow built into every interaction. Privacy handled, audit trail included." },
-        "reliability":   { "title": "Reliability scoring",         "desc": "See which patients consistently cancel. Flag high-risk bookings and protect your providers' time." }
+        "consent":       { "title": "Client consent built in",    "desc": "LFPDPPP-compliant consent flow built into every interaction. Privacy handled, audit trail included." },
+        "reliability":   { "title": "Reliability scoring",         "desc": "See which Clients consistently cancel. Flag high-risk bookings and protect your providers' time." }
       }
     },
     "features": {
       "title": "The full picture",
-      "subtitle": "Every feature designed to reduce admin overhead and keep patients coming back.",
+      "subtitle": "Every feature designed to reduce admin overhead and keep Clients coming back.",
       "items": {
         "calendar":      { "title": "Unified calendar",           "desc": "All providers, all rooms, one view. Filter by provider, date, or appointment status." },
-        "booking":       { "title": "Online + WhatsApp booking",  "desc": "Patients can book through a shareable link or directly through WhatsApp — both flows sync to the same calendar." },
-        "notifications": { "title": "Automated notifications",    "desc": "Confirmation, reminder, and rescheduling messages sent automatically — in Spanish, timed to the patient's timezone." },
+        "booking":       { "title": "Online + WhatsApp booking",  "desc": "Clients can book through a shareable link or directly through WhatsApp — both flows sync to the same calendar." },
+        "notifications": { "title": "Automated notifications",    "desc": "Confirmation, reminder, and rescheduling messages sent automatically — in Spanish, timed to the Client's timezone." },
         "auditLog":      { "title": "Full audit log",             "desc": "Every change to an appointment is recorded. Know who booked, who cancelled, and when." }
       }
     },
@@ -420,14 +421,14 @@
         "whatsapp":     { "title": "WhatsApp messages",    "desc": "Message content is never stored. Only the booking state is kept temporarily in memory and deleted when the conversation ends." },
         "mobile":       { "title": "Phone numbers",        "desc": "All mobile numbers are encrypted at rest using AES-256. Numbers are displayed masked by default — full numbers are only revealed on explicit request." },
         "appointments": { "title": "Appointment records",  "desc": "Kept for 5 years from the appointment date, in line with standard medical record retention in Mexico. Permanently deleted after that." },
-        "consent":      { "title": "Consent records",      "desc": "Every consent grant and revocation is logged with a timestamp. Records are retained while the patient has an active relationship with any business on the platform." },
-        "deletion":     { "title": "Account deletion",     "desc": "Patients can request account deletion at any time. Personal data is deleted immediately; appointment slots are anonymized for business reporting." },
+        "consent":      { "title": "Consent records",      "desc": "Every consent grant and revocation is logged with a timestamp. Records are retained while the Client has an active relationship with any business on the platform." },
+        "deletion":     { "title": "Account deletion",     "desc": "Clients can request account deletion at any time. Personal data is deleted immediately; appointment slots are anonymized for business reporting." },
         "business":     { "title": "Business data",        "desc": "On account closure, a 30-day grace period allows you to export your records. After that, all data is permanently deleted." }
       }
     },
     "cta": {
       "title": "See A tiempo in action",
-      "subtitle": "We'll walk you through a live demo tailored to your clinic type.",
+      "subtitle": "We'll walk you through a live demo tailored to your business type.",
       "button": "Book a free demo"
     }
   }

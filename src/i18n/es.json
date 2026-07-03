@@ -65,7 +65,7 @@
     "title": "Creados por nosotros, usados cada día",
     "subtitle": "Además del trabajo con clientes, construimos nuestros propios productos para resolver problemas reales.",
     "timepow": {
-      "name": "Timepow",
+      "name": "A Tiempo",
       "status": "En vivo",
       "desc": "Una plataforma inteligente de citas con WhatsApp en el centro — agenda, confirma y reagenda sin salir del chat.",
       "features": {
@@ -248,7 +248,8 @@
         "privacyEmail": "privacidad@[COMPLETAR].com",
         "website": "[COMPLETAR: URL]",
         "responsableWord": "Responsable",
-        "desc": "es quien decide sobre el tratamiento de los datos personales recabados a través de la plataforma A Tiempo."
+        "desc": "es quien decide sobre el tratamiento de los datos personales recabados a través de la plataforma A Tiempo.",
+        "processorNote": "El negocio con el que realizó su cita actúa como Responsable de los datos y ha autorizado a A Tiempo a tratarlos en su nombre."
       },
       "s2": {
         "title": "2. Datos personales que se recaban",
