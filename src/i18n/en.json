@@ -129,7 +129,9 @@
       "submit": "Send message",
       "sending": "Sending...",
       "success": "Message sent! We'll get back to you soon.",
-      "error": "Something went wrong. Please try again."
+      "error": "Something went wrong. Please try again.",
+      "privacyNote": "By sending this message you acknowledge our",
+      "privacyLink": "Privacy Notice"
     },
     "services": ["Web development", "Mobile app", "APIs & Integrations", "Cloud & DevOps", "Database design", "Tech consulting", "Other"],
     "reachTitle": "Other ways to reach us",
