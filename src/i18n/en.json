@@ -196,7 +196,8 @@
         "privacyEmail": "privacy@agnelosoftware.com",
         "website": "agnelosoftware.com",
         "responsableWord": "Data Controller",
-        "desc": "decides on the processing of personal data collected through the website contact form."
+        "desc": "decides on the processing of personal data collected through the website contact form.",
+        "processorNote": "We act as the data processor under instructions from the business with which you scheduled your appointment, who is the data controller of your data."
       },
       "s2": {
         "title": "2. Personal data collected",

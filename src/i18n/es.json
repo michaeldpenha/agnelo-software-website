@@ -196,7 +196,8 @@
         "privacyEmail": "privacidad@agnelosoftware.com",
         "website": "agnelosoftware.com",
         "responsableWord": "Responsable",
-        "desc": "es quien decide sobre el tratamiento de los datos personales recabados a través del formulario de contacto del sitio web."
+        "desc": "es quien decide sobre el tratamiento de los datos personales recabados a través del formulario de contacto del sitio web.",
+        "processorNote": "Actuamos como encargado del tratamiento bajo instrucciones del negocio con el que usted agendó su cita, quien es el responsable del tratamiento de sus datos."
       },
       "s2": {
         "title": "2. Datos personales que se recaban",

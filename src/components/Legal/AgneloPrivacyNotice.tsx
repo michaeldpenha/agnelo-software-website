@@ -40,6 +40,7 @@ export function AgneloPrivacyNotice() {
                 <strong>{t(`${s}.websiteLabel`)}</strong> {t(`${p}.s1.website`)}
               </Typography>
               <Typography variant="body-sm" color="secondary">{t(`${p}.s1.desc`)}</Typography>
+              <Typography variant="body-sm" color="secondary">{t(`${p}.s1.processorNote`)}</Typography>
             </LegalSection>
           </Card>
 
