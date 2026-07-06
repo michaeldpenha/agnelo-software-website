@@ -1,0 +1,33 @@
+.bar {
+  background: var(--surface-2);
+  border-bottom: 0.5px solid var(--border);
+  padding: 10px 0;
+}
+
+.inner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: none;
+  padding: 6px 14px;
+  border: 1px solid var(--primary);
+  border-radius: var(--radius);
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+@media print {
+  .bar { display: none; }
+}

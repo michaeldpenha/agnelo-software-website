@@ -153,6 +153,16 @@
       "privacy": "Privacy notice"
     }
   },
+  "privacidadPage": {
+    "downloadBtn": "View PDF",
+    "viewerBack": "Back to Privacy Notice",
+    "viewerOpen": "Open in new tab",
+    "versionHistory": "Version history",
+    "versionCurrent": "Current",
+    "versions": [
+      { "date": "02/07/2026", "label": "Initial publication", "file": "aviso-privacidad-2026-07-02.pdf" }
+    ]
+  },
   "privacidad": {
     "shared": {
       "tableThird": "Third party",

@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { Navbar } from '@/components/Navbar/Navbar';
 import { AgneloPrivacyNotice } from '@/components/Legal/AgneloPrivacyNotice';
 import { PrivacyNotice } from '@/components/Legal/PrivacyNotice';
+import { LegalVersionHistory } from '@/components/Legal/LegalVersionHistory';
+import { PrivacidadActions } from '@/components/Legal/PrivacidadActions';
 import { SiteFooter } from '@/components/SiteFooter/SiteFooter';
 
 export const metadata: Metadata = {
@@ -14,8 +16,10 @@ export default function PrivacidadPage() {
     <>
       <Navbar />
       <main>
+        <PrivacidadActions />
         <AgneloPrivacyNotice />
         <PrivacyNotice />
+        <LegalVersionHistory />
       </main>
       <SiteFooter />
     </>
