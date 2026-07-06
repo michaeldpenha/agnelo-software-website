@@ -5,13 +5,15 @@ import { useTranslation } from 'react-i18next';
 import { IconFileTypePdf } from '@tabler/icons-react';
 import styles from './PrivacidadActions.module.css';
 
+const latestDate = process.env.NEXT_PUBLIC_LATEST_PRIVACY_DATE ?? '2026-07-02';
+
 export function PrivacidadActions() {
   const { t } = useTranslation();
 
   return (
     <div className={styles.bar}>
       <div className={`container ${styles.inner}`}>
-        <Link href="/privacidad/2026-07-02" className={styles.btn}>
+        <Link href={`/privacidad/${latestDate}`} className={styles.btn}>
           <IconFileTypePdf size={16} />
           {t('privacidadPage.downloadBtn')}
         </Link>
