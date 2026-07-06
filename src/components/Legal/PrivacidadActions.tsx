@@ -11,7 +11,7 @@ export function PrivacidadActions() {
   return (
     <div className={styles.bar}>
       <div className={`container ${styles.inner}`}>
-        <Link href="/privacidad/ver" className={styles.btn}>
+        <Link href="/privacidad/2026-07-02" className={styles.btn}>
           <IconFileTypePdf size={16} />
           {t('privacidadPage.downloadBtn')}
         </Link>
