@@ -9,18 +9,28 @@ const LATEST_PDF = '/docs/privacy/aviso-privacidad-2026-07-02.pdf';
 
 interface Props {
   pdfSrc?: string;
+  label?: string;
+  description?: string;
+  stacked?: boolean;
 }
 
-export function PdfViewer({ pdfSrc = LATEST_PDF }: Props) {
+export function PdfViewer({ pdfSrc = LATEST_PDF, label, description, stacked = false }: Props) {
   const { t } = useTranslation();
 
   return (
-    <div className={styles.wrapper}>
+    <div className={stacked ? styles.wrapperStacked : styles.wrapper}>
       <div className={styles.bar}>
-        <Link href="/privacidad" className={styles.back}>
-          <IconArrowLeft size={15} />
-          {t('privacidadPage.viewerBack')}
-        </Link>
+        {stacked ? (
+          <div className={styles.sectorInfo}>
+            {label && <span className={styles.sectorLabel}>{label}</span>}
+            {description && <span className={styles.sectorDesc}>{description}</span>}
+          </div>
+        ) : (
+          <Link href="/privacidad" className={styles.back}>
+            <IconArrowLeft size={15} />
+            {t('privacidadPage.viewerBack')}
+          </Link>
+        )}
         <a
           href={pdfSrc}
           target="_blank"
@@ -34,7 +44,7 @@ export function PdfViewer({ pdfSrc = LATEST_PDF }: Props) {
       <iframe
         src={pdfSrc}
         className={styles.frame}
-        title="Aviso de Privacidad"
+        title={label ?? 'Aviso de Privacidad'}
       />
     </div>
   );

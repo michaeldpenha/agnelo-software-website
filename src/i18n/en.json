@@ -157,6 +157,13 @@
     "downloadBtn": "View PDF",
     "viewerBack": "Back to Privacy Notice",
     "viewerOpen": "Open in new tab",
+    "pageTitle": "Privacy Notices",
+    "pageSubtitle": "Select the notice that applies to your type of business.",
+    "viewNotice": "View notice",
+    "sectorMedical": "Medical sector",
+    "sectorMedicalDesc": "Clinics, practices, hospitals and other healthcare providers",
+    "sectorGeneral": "Other businesses",
+    "sectorGeneralDesc": "Salons, gyms, spas, studios and other service businesses",
     "versionHistory": "Version history",
     "versionCurrent": "Current",
     "versions": [

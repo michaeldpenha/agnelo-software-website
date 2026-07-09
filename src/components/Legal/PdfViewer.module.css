@@ -4,6 +4,13 @@
   height: calc(100dvh - 60px);
 }
 
+.wrapperStacked {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  border-bottom: 1px solid var(--border);
+}
+
 .bar {
   display: flex;
   align-items: center;
@@ -12,6 +19,23 @@
   background: var(--surface-2);
   border-bottom: 0.5px solid var(--border);
   flex-shrink: 0;
+}
+
+.sectorInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sectorLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.sectorDesc {
+  font-size: 12px;
+  color: var(--text-muted);
 }
 
 .back {
@@ -36,6 +60,7 @@
   font-weight: 500;
   color: var(--primary);
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .open:hover {

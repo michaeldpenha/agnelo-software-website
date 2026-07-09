@@ -1,20 +1,27 @@
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/Navbar/Navbar';
 import { PdfViewer } from '@/components/Legal/PdfViewer';
+import en from '@/i18n/en.json';
+import es from '@/i18n/es.json';
 
 interface Props {
-  params: { date: string };
+  params: { sector: string; date: string };
 }
 
 export function generateMetadata({ params }: Props): Metadata {
   return {
-    title: `Aviso de Privacidad — ${params.date}`,
-    description: `Versión archivada del aviso de privacidad de Agnelo Software (${params.date}).`,
+    title: `${es.privacidadPage.pageTitle} — ${params.date}`,
+    description: es.privacidadPage.pageSubtitle,
+    alternates: {
+      languages: {
+        'en': `${en.privacidadPage.pageTitle} — ${params.date}`,
+      },
+    },
   };
 }
 
 export default function PrivacidadVersionPage({ params }: Props) {
-  const pdfSrc = `/docs/privacy/aviso-privacidad-${params.date}.pdf`;
+  const pdfSrc = `/docs/privacy/${params.sector}/aviso-privacidad-${params.date}.pdf`;
 
   return (
     <>

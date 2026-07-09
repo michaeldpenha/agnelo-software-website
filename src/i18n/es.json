@@ -157,6 +157,13 @@
     "downloadBtn": "Ver PDF",
     "viewerBack": "Volver al Aviso de Privacidad",
     "viewerOpen": "Abrir en nueva pestaña",
+    "pageTitle": "Avisos de Privacidad",
+    "pageSubtitle": "Selecciona el aviso que corresponde a tu tipo de negocio.",
+    "viewNotice": "Ver aviso",
+    "sectorMedical": "Sector médico",
+    "sectorMedicalDesc": "Clínicas, consultorios, hospitales y otros proveedores de salud",
+    "sectorGeneral": "Otros negocios",
+    "sectorGeneralDesc": "Salones, gimnasios, spas, estudios y otros negocios de servicios",
     "versionHistory": "Historial de versiones",
     "versionCurrent": "Actual",
     "versions": [
