@@ -19,10 +19,10 @@ export function SiteFooter() {
           </div>
           <div className={styles.navGroup}>
             <nav className={styles.nav}>
-              <a href="/#services">{t('footer.nav.services')}</a>
-              <a href="/#products">{t('footer.nav.products')}</a>
-              <a href="/#about">{t('footer.nav.about')}</a>
-              <a href="/#contact">{t('footer.nav.contact')}</a>
+              <Link href="/#services">{t('footer.nav.services')}</Link>
+              <Link href="/#products">{t('footer.nav.products')}</Link>
+              <Link href="/#about">{t('footer.nav.about')}</Link>
+              <Link href="/#contact">{t('footer.nav.contact')}</Link>
             </nav>
             <nav className={styles.nav}>
               <Link href="/para-proveedores">{t('footer.nav.forProviders')}</Link>

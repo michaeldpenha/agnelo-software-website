@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import { IconMenu2, IconX } from '@tabler/icons-react';
 import styles from './Navbar.module.css';
@@ -13,18 +14,18 @@ export function Navbar() {
   return (
     <header className={styles.header}>
       <nav className={`container ${styles.nav}`}>
-        <a href="#hero" className={styles.brand}>
+        <Link href="/" className={styles.brand}>
           <Image src="/logo-nav.svg" alt="Agnelo Software" width={200} height={32} priority />
-        </a>
+        </Link>
 
         <ul className={`${styles.links} ${open ? styles.linksOpen : ''}`}>
-          <li><a href="#services" onClick={() => setOpen(false)}>{t('nav.services')}</a></li>
-          <li><a href="#products" onClick={() => setOpen(false)}>{t('nav.products')}</a></li>
-          <li><a href="#about" onClick={() => setOpen(false)}>{t('nav.about')}</a></li>
+          <li><Link href="/#services" onClick={() => setOpen(false)}>{t('nav.services')}</Link></li>
+          <li><Link href="/#products" onClick={() => setOpen(false)}>{t('nav.products')}</Link></li>
+          <li><Link href="/#about" onClick={() => setOpen(false)}>{t('nav.about')}</Link></li>
           <li>
-            <a href="#contact" className={styles.cta} onClick={() => setOpen(false)}>
+            <Link href="/#contact" className={styles.cta} onClick={() => setOpen(false)}>
               {t('nav.contact')}
-            </a>
+            </Link>
           </li>
         </ul>
 
