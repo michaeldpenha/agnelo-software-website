@@ -131,7 +131,9 @@
       "success": "¡Mensaje enviado! Te responderemos pronto.",
       "error": "Algo salió mal. Por favor inténtalo de nuevo.",
       "privacyNote": "Al enviar este mensaje aceptas nuestro",
-      "privacyLink": "Aviso de Privacidad"
+      "privacyLink": "Aviso de Privacidad",
+      "consentText": "He leído y acepto el",
+      "consentRequired": "Debes aceptar el aviso de privacidad para continuar"
     },
     "services": ["Desarrollo web", "App móvil", "APIs e integraciones", "Cloud y DevOps", "Diseño de base de datos", "Consultoría tecnológica", "Otro"],
     "reachTitle": "Otras formas de contactarnos",

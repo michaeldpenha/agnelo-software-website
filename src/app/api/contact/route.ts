@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
   }
 
-  logger.info({ service, company: company || 'n/a' }, '[contact] Sending inquiry');
+  logger.info({ service, company: company ? '[provided]' : 'n/a' }, '[contact] Sending inquiry');
 
   const { error } = await resend.emails.send({
     from: 'Agnelo Software Contact <no-reply@agnelosoftware.com>',

@@ -14,7 +14,7 @@ import styles from './ContactForm.module.css';
 
 export function ContactForm() {
   const { t } = useTranslation();
-  const { form, status, set, submit } = useContactForm();
+  const { form, consent, status, set, toggleConsent, submit } = useContactForm();
 
   const serviceOptions = useMemo(
     () => (t('contact.services', { returnObjects: true }) as string[]).map((s) => ({ label: s, value: s })),
@@ -92,15 +92,24 @@ export function ContactForm() {
           </Typography>
         )}
 
-        <p className={styles.privacyNote}>
-          {t('contact.form.privacyNote')}{' '}
-          <Link href="/privacidad">{t('contact.form.privacyLink')}</Link>.
-        </p>
+        <label className={styles.consentLabel}>
+          <input
+            type="checkbox"
+            checked={consent}
+            onChange={toggleConsent}
+            className={styles.consentCheckbox}
+            required
+          />
+          <span>
+            {t('contact.form.consentText')}{' '}
+            <Link href="/privacidad">{t('contact.form.privacyLink')}</Link>
+          </span>
+        </label>
 
         <Button
           type="submit"
           label={submitLabel}
-          disabled={status === 'sending'}
+          disabled={status === 'sending' || !consent}
           loading={status === 'sending'}
           className={styles.submit}
         />

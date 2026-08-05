@@ -11,13 +11,17 @@ const EMPTY: FormData = {
 export function useContactForm() {
   const [form, setForm] = useState<FormData>(EMPTY);
   const [status, setStatus] = useState<FormStatus>('idle');
+  const [consent, setConsent] = useState(false);
 
   const set = useCallback((key: keyof FormData, value: string) => {
     setForm((f) => ({ ...f, [key]: value }));
   }, []);
 
+  const toggleConsent = useCallback(() => setConsent((c) => !c), []);
+
   const submit = useCallback(async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!consent) return;
     setStatus('sending');
     try {
       const res = await fetch('/api/contact', {
@@ -26,11 +30,11 @@ export function useContactForm() {
         body: JSON.stringify(form),
       });
       setStatus(res.ok ? 'success' : 'error');
-      if (res.ok) setForm(EMPTY);
+      if (res.ok) { setForm(EMPTY); setConsent(false); }
     } catch {
       setStatus('error');
     }
-  }, [form]);
+  }, [form, consent]);
 
-  return { form, status, set, submit };
+  return { form, consent, status, set, toggleConsent, submit };
 }

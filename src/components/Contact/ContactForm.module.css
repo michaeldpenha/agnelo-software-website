@@ -64,6 +64,29 @@
   text-decoration: underline;
 }
 
+.consentLabel {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.consentLabel a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.consentCheckbox {
+  margin-top: 2px;
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
 .submit {
   align-self: flex-start;
   padding: 10px 24px !important;

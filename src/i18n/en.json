@@ -131,7 +131,9 @@
       "success": "Message sent! We'll get back to you soon.",
       "error": "Something went wrong. Please try again.",
       "privacyNote": "By sending this message you acknowledge our",
-      "privacyLink": "Privacy Notice"
+      "privacyLink": "Privacy Notice",
+      "consentText": "I have read and accept the",
+      "consentRequired": "You must accept the privacy notice to continue"
     },
     "services": ["Web development", "Mobile app", "APIs & Integrations", "Cloud & DevOps", "Database design", "Tech consulting", "Other"],
     "reachTitle": "Other ways to reach us",
