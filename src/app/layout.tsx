@@ -17,14 +17,16 @@ export const metadata: Metadata = {
     title: 'Agnelo Software',
     description: 'We build software that solves real problems.',
   },
-  other: {
-    'fb:app_id': process.env.NEXT_PUBLIC_FACEBOOK_APP_ID ?? '',
-  },
 };
+
+const FB_APP_ID = process.env.NEXT_PUBLIC_FACEBOOK_APP_ID ?? '';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={inter.className}>
+      <head>
+        <meta property="fb:app_id" content={FB_APP_ID} />
+      </head>
       <body>
         <Providers>{children}</Providers>
       </body>
