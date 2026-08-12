@@ -6,6 +6,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://agnelosoftware.com'),
   title: { default: 'Agnelo Software', template: '%s | Agnelo Software' },
   description: 'Custom web apps, mobile solutions, and scalable systems — designed for businesses that need technology that actually works.',
   keywords: ['software development', 'web apps', 'mobile apps', 'APIs', 'cloud', 'DevOps'],
