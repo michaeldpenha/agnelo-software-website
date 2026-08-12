@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   description:
     'Política de privacidad de Agnelo Software y la plataforma A Tiempo. Consulta cómo tratamos y protegemos tus datos personales conforme a la LFPDPPP.',
   openGraph: {
+    type: 'website',
     title: 'Política de Privacidad — Agnelo Software',
     description:
       'Consulta el aviso de privacidad de Agnelo Software y la plataforma A Tiempo.',

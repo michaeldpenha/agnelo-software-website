@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: es.eliminarDatos.pageTitle,
   description: es.eliminarDatos.pageSubtitle,
   openGraph: {
+    type: 'website',
     title: `${es.eliminarDatos.pageTitle} — A Tiempo · Agnelo Software`,
     description: es.eliminarDatos.pageSubtitle,
     url: 'https://agnelosoftware.com/eliminar-datos',

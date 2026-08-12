@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     title: 'Agnelo Software',
     description: 'We build software that solves real problems.',
   },
+  other: {
+    'fb:app_id': process.env.NEXT_PUBLIC_FACEBOOK_APP_ID ?? '',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
