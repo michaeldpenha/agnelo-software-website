@@ -155,6 +155,21 @@
       "privacy": "Privacy notice"
     }
   },
+  "eliminarDatos": {
+    "pageTitle": "Delete my data",
+    "pageSubtitle": "You can request deletion of your personal data from the A Tiempo platform through any of the following options.",
+    "option1Title": "From the app",
+    "option1Desc": "Log in to your A Tiempo account and go to",
+    "option1Steps": "Settings → Account → Delete account",
+    "option1Suffix": "Your data will be permanently deleted within 30 days.",
+    "option2Title": "By email",
+    "option2Prefix": "Send an email to",
+    "option2SubjectLabel": "with the subject",
+    "option2Subject": "Data deletion request",
+    "option2Suffix": "and include the email address you used to register. We will process your request within 20 business days in accordance with the LFPDPPP.",
+    "email": "privacidad@agnelosoftware.com",
+    "note": "Once deleted, your data cannot be recovered. If you have pending appointments, we recommend cancelling them before requesting deletion."
+  },
   "privacidadPage": {
     "downloadBtn": "View PDF",
     "viewerBack": "Back to Privacy Notice",

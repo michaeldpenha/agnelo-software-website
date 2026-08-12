@@ -155,6 +155,21 @@
       "privacy": "Aviso de privacidad"
     }
   },
+  "eliminarDatos": {
+    "pageTitle": "Eliminar mis datos",
+    "pageSubtitle": "Puedes solicitar la eliminación de tus datos personales de la plataforma A Tiempo a través de cualquiera de las siguientes opciones.",
+    "option1Title": "Desde la aplicación",
+    "option1Desc": "Inicia sesión en tu cuenta de A Tiempo y ve a",
+    "option1Steps": "Configuración → Cuenta → Eliminar cuenta",
+    "option1Suffix": "Tus datos serán eliminados de forma permanente en un plazo de 30 días.",
+    "option2Title": "Por correo electrónico",
+    "option2Prefix": "Envía un correo a",
+    "option2SubjectLabel": "con el asunto",
+    "option2Subject": "Solicitud de eliminación de datos",
+    "option2Suffix": "e incluye el correo electrónico con el que te registraste. Procesaremos tu solicitud en un plazo máximo de 20 días hábiles conforme a la LFPDPPP.",
+    "email": "privacidad@agnelosoftware.com",
+    "note": "Una vez eliminados, tus datos no podrán ser recuperados. Si tienes citas pendientes, te recomendamos cancelarlas antes de solicitar la eliminación."
+  },
   "privacidadPage": {
     "downloadBtn": "Ver PDF",
     "viewerBack": "Volver al Aviso de Privacidad",
